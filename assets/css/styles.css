@@ -1,0 +1,71 @@
+html, 
+body, 
+#container{ 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	background-color: #E9EAED;
+}
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;	
+}
+.div_left{
+	width: 25%;
+}
+#mycontent{
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+	border: 2px solid #fff;
+}
+.left{
+	float: left;
+}
+.div_right{
+	width: 1000px; 
+	height: 600px
+}
+.div_left,
+.div_right{
+	margin-top: 30px;
+}
+.my_panel,
+.restaurant_detail{
+	width: 95%;
+	background-color: #fff;
+	margin: auto;
+}
+.my_panel .title, .my_panel .category{
+	min-height: 30px;
+	border-bottom: 1px solid #E9EAED;
+}
+.my_panel .title span{
+	padding-left: 10px;
+	line-height: 35px;
+	font-weight: bold;
+}
+.menu_contents .category,
+.menu_contents .res_list{
+	line-height: 30px;
+	padding-left: 10px;
+}
+.hide{
+	display: none;
+}
+.info_content{
+	width:200px;
+	margin:0 0 10px 10px;
+	height:auto;
+}
+.restaurant_detail{
+	margin-top: 20px;
+}
+.restaurant_detail table tr td:first-child{
+	font-weight: bold;
+}
+.restaurant_detail table{
+	padding-left: 10px;
+}
